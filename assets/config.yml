@@ -3,10 +3,10 @@
 # Optional: Use external configuration file.
 # Using this will ignore remaining config in this file
 # externalConfig: https://example.com/server-luci/config.yaml
-title: "Mainframe"
-subtitle: "triclick.lan"
+title: 'Mainframe'
+subtitle: 'triclick.lan'
 # documentTitle: "Welcome" # Customize the browser tab text
-logo: "/assets/images/triclick-logo.png"
+logo: '/assets/images/triclick-logo.png'
 # Alternatively a fa icon can be provided:
 # icon: "fas fa-skull-crossbones"
 
@@ -15,7 +15,7 @@ header: true # Set to false to hide the header
 # hotkey:
 #   search: "Shift"
 footer: '<p>powered by <a href="https://triclick.co/">@triclick.co</a></p>' # set false if you want to hide it.
-columns: "4" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+columns: '4' # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
 connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example).
 # You should set it to true when using an authentication proxy, it also reloads the page when a redirection is detected when checking connectivity.
 
@@ -28,244 +28,244 @@ theme: default # 'default' or one of the themes available in 'src/assets/themes'
 # Optional custom stylesheet
 # Will load custom CSS files. Especially useful for custom icon sets.
 stylesheet:
-  - "assets/custom.css"
+  - 'assets/custom.css'
 # Here is the exhaustive list of customization parameters
 # However all value are optional and will fallback to default if not set.
 # if you want to change only some of the colors, feel free to remove all unused key.
 colors:
   light:
-    highlight-primary: "#1bc7ed"
-    highlight-secondary: "#1bc7ed"
-    highlight-hover: "#0094ff"
-    background: "#f5f5f5"
-    card-background: "#ffffff"
-    text: "#363636"
-    text-header: "#424242"
-    text-title: "#303030"
-    text-subtitle: "#424242"
+    highlight-primary: '#1bc7ed'
+    highlight-secondary: '#1bc7ed'
+    highlight-hover: '#0094ff'
+    background: '#f5f5f5'
+    card-background: '#ffffff'
+    text: '#363636'
+    text-header: '#424242'
+    text-title: '#303030'
+    text-subtitle: '#424242'
     card-shadow: rgba(0, 0, 0, 0.1)
-    link: "#1bc7ed"
-    link-hover: "#ffb000"
-    background-image: "/assets/images/light-bg.png" # prefix with your sub subpath if any (ex: /homer/assets/...)
+    link: '#1bc7ed'
+    link-hover: '#ffb000'
+    background-image: '/assets/images/light-bg.png' # prefix with your sub subpath if any (ex: /homer/assets/...)
 
   dark:
-    highlight-primary: "#1bc7ed"
-    highlight-secondary: "#1bc7ed"
-    highlight-hover: "#0094ff"
-    background: "#050537"
-    card-background: "#222222"
-    text: "#eaeaea"
-    text-header: "#ffffff"
-    text-title: "#fafafa"
-    text-subtitle: "#f5f5f5"
+    highlight-primary: '#1bc7ed'
+    highlight-secondary: '#1bc7ed'
+    highlight-hover: '#0094ff'
+    background: '#050537'
+    card-background: '#222222'
+    text: '#eaeaea'
+    text-header: '#ffffff'
+    text-title: '#fafafa'
+    text-subtitle: '#f5f5f5'
     card-shadow: rgba(0, 0, 0, 0.4)
-    link: "#1bc7ed"
-    link-hover: "#ffb000"
-    background-image: "/assets/images/dark-bg.png" # prefix with your sub subpath if any (ex: /homer/assets/...)
+    link: '#1bc7ed'
+    link-hover: '#ffb000'
+    background-image: '/assets/images/dark-bg.png' # prefix with your sub subpath if any (ex: /homer/assets/...)
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Website"
-    icon: "fa fa-globe-americas"
-    url: "https://triclick.co"
+  - name: 'Website'
+    icon: 'fa fa-globe-americas'
+    url: 'https://triclick.co'
 
-  - name: "Portafolio"
-    icon: "fas fa-briefcase"
-    url: "https://triclick.co/portafolio"
+  - name: 'Portafolio'
+    icon: 'fas fa-briefcase'
+    url: 'https://triclick.co/portafolio'
 
-  - name: "Webmail"
-    icon: "fas fa-envelope"
-    url: "https://triclick.co:2096"
+  - name: 'Webmail'
+    icon: 'fas fa-envelope'
+    url: 'https://triclick.co:2096'
 
-  - name: "cPanel"
-    icon: "fab fa-cpanel"
-    subtitle: "Panel de Control del Sitio Web" # optional, if no subtitle is defined, PiHole statistics will be shown
-    tag: "web"
-    keywords: "panel sysadmin"
-    url: "https://triclick.co:2083"
+  - name: 'cPanel'
+    icon: 'fab fa-cpanel'
+    subtitle: 'Panel de Control del Sitio Web' # optional, if no subtitle is defined, PiHole statistics will be shown
+    tag: 'web'
+    keywords: 'panel sysadmin'
+    url: 'https://triclick.co:2083'
 
-  - name: "@rolodoom"
-    icon: "fab fa-github"
-    tag: "code"
-    keywords: "git code"
-    url: "https://github.com/rolodoom/"
+  - name: '@rolodoom'
+    icon: 'fab fa-github'
+    tag: 'code'
+    keywords: 'git code'
+    url: 'https://github.com/rolodoom/'
 
-  - name: "Localhost [DEV]"
-    icon: "fa-solid fa-terminal"
-    tag: "server"
-    keywords: "desarrollo"
-    url: "http://localhost/"
+  - name: 'Localhost [DEV]'
+    icon: 'fa-solid fa-terminal'
+    tag: 'server'
+    keywords: 'desarrollo'
+    url: 'http://localhost/'
 
 # Services
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Oficina"
-    icon: "fab fa-app-store-ios"
+  - name: 'Oficina'
+    icon: 'fab fa-app-store-ios'
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     # class: "highlight-purple" # Optional css class to add on the service group.
     items:
-      - name: "Canva"
-        logo: "assets/images/canva.svg"
-        subtitle: "Diseño Gráfico"
-        tag: "design"
-        url: "https://canva.com"
+      - name: 'Canva'
+        logo: 'assets/images/canva.svg'
+        subtitle: 'Diseño Gráfico'
+        tag: 'design'
+        url: 'https://canva.com'
 
-      - name: "Trello"
-        logo: "assets/images/trello.svg"
-        subtitle: "Gestión de tareas"
-        tag: "management"
-        url: "https://trello.com"
+      - name: 'Trello'
+        logo: 'assets/images/trello.svg'
+        subtitle: 'Gestión de tareas'
+        tag: 'management'
+        url: 'https://trello.com'
 
-      - name: "Adobe Express"
-        logo: "assets/images/adobe-express.svg"
-        subtitle: "Diseño Gráfico"
-        tag: "design"
-        url: "https://new.express.adobe.com/"
+      - name: 'Adobe Express'
+        logo: 'assets/images/adobe-express.svg'
+        subtitle: 'Diseño Gráfico'
+        tag: 'design'
+        url: 'https://new.express.adobe.com/'
 
       - name: Nextcloud
         type: Nextcloud
         logo: assets/images/nextcloud.svg
-        tag: "cloud"
-        url: "https://nextcloud.triclick.lan"
+        tag: 'cloud'
+        url: 'https://nextcloud.triclick.lan'
 
-      - name: "Figma"
-        logo: "assets/images/figma.svg"
-        subtitle: "Diseño Gráfico"
-        tag: "design"
-        url: "https://figma.com"
+      - name: 'Figma'
+        logo: 'assets/images/figma.svg'
+        subtitle: 'Diseño Gráfico'
+        tag: 'design'
+        url: 'https://figma.com'
 
       - name: Google Drive
-        subtitle: "Almacenamiento en la Nube"
+        subtitle: 'Almacenamiento en la Nube'
         logo: assets/images/google-drive.svg
-        tag: "cloud"
-        url: "https://drive.google.com/drive/starred"
+        tag: 'cloud'
+        url: 'https://drive.google.com/drive/starred'
 
       - name: Google Calendar
-        subtitle: "Calendario en línea"
+        subtitle: 'Calendario en línea'
         logo: assets/images/google-calendar.svg
-        tag: "management"
-        url: "https://calendar.google.com/calendar"
+        tag: 'management'
+        url: 'https://calendar.google.com/calendar'
 
-      - name: "WhatsApp Web"
-        logo: "assets/images/whatsapp.svg"
-        subtitle: "Mensajería instantánea"
-        tag: "messenger"
-        keywords: "web whatsapp"
-        url: "https://web.whatsapp.com/"
+      - name: 'WhatsApp Web'
+        logo: 'assets/images/whatsapp.svg'
+        subtitle: 'Mensajería instantánea'
+        tag: 'messenger'
+        keywords: 'web whatsapp'
+        url: 'https://web.whatsapp.com/'
 
-      - name: "Stirling PDF"
-        logo: "assets/images/stirling-pdf.svg"
-        subtitle: "Editor y procesador de PDF"
-        tag: "pdf"
-        keywords: "pdf comprimir"
-        url: "https://stirlingpdf.triclick.lan"
+      - name: 'Stirling PDF'
+        logo: 'assets/images/stirling-pdf.svg'
+        subtitle: 'Editor y procesador de PDF'
+        tag: 'pdf'
+        keywords: 'pdf comprimir'
+        url: 'https://stirlingpdf.triclick.lan'
 
-      - name: "Spotify"
-        logo: "assets/images/spotify.svg"
-        subtitle: "Servicio de música en streaming"
-        tag: "streaming"
-        keywords: "music streaming"
-        url: "https://open.spotify.com/"
+      - name: 'Spotify'
+        logo: 'assets/images/spotify.svg'
+        subtitle: 'Servicio de música en streaming'
+        tag: 'streaming'
+        keywords: 'music streaming'
+        url: 'https://open.spotify.com/'
 
-      - name: "Flathub"
-        logo: "assets/images/flathub.svg"
-        subtitle: "App Store para Flatpak"
-        tag: "app store"
-        url: "https://flathub.org/"
+      - name: 'Flathub'
+        logo: 'assets/images/flathub.svg'
+        subtitle: 'App Store para Flatpak'
+        tag: 'app store'
+        url: 'https://flathub.org/'
 
-      - name: "Snapcraft"
-        logo: "assets/images/snapcraft.svg"
-        subtitle: "App Store para Snap"
-        tag: "app store"
-        url: "https://snapcraft.io/"
+      - name: 'Snapcraft'
+        logo: 'assets/images/snapcraft.svg'
+        subtitle: 'App Store para Snap'
+        tag: 'app store'
+        url: 'https://snapcraft.io/'
 
-  - name: "Buscadores"
-    icon: "fas fa-search"
+  - name: 'Buscadores'
+    icon: 'fas fa-search'
     items:
-      - name: "Brave Search"
-        logo: "assets/images/brave.svg"
-        subtitle: "Buscador independiente"
-        url: "https://search.brave.com/"
-        tag: "browser"
+      - name: 'Brave Search'
+        logo: 'assets/images/brave.svg'
+        subtitle: 'Buscador independiente'
+        url: 'https://search.brave.com/'
+        tag: 'browser'
 
-      - name: "DuckDuckGo"
-        logo: "assets/images/duckduckgo.svg"
-        subtitle: "Privacidad primero"
-        url: "https://duckduckgo.com"
-        tag: "browser"
+      - name: 'DuckDuckGo'
+        logo: 'assets/images/duckduckgo.svg'
+        subtitle: 'Privacidad primero'
+        url: 'https://duckduckgo.com'
+        tag: 'browser'
 
-      - name: "Bing"
-        logo: "assets/images/bing.svg"
-        subtitle: "Microsoft Bing"
-        url: "https://bing.com"
-        tag: "browser"
+      - name: 'Bing'
+        logo: 'assets/images/bing.svg'
+        subtitle: 'Microsoft Bing'
+        url: 'https://bing.com'
+        tag: 'browser'
 
-      - name: "Google"
-        logo: "assets/images/google.svg"
-        subtitle: "Buscar en la web"
-        url: "https://google.com"
-        tag: "browser"
+      - name: 'Google'
+        logo: 'assets/images/google.svg'
+        subtitle: 'Buscar en la web'
+        url: 'https://google.com'
+        tag: 'browser'
 
-  - name: "Administradores"
-    icon: "fas fa-heartbeat"
+  - name: 'Administradores'
+    icon: 'fas fa-heartbeat'
     items:
-      - name: "Portainer"
-        logo: "assets/images/portainer.svg"
-        subtitle: "Administrador de Contenedores" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "docker"
-        keywords: "docker container"
-        url: "https://portainer.triclick.lan:9443/"
+      - name: 'Portainer'
+        logo: 'assets/images/portainer.svg'
+        subtitle: 'Administrador de Contenedores' # optional, if no subtitle is defined, PiHole statistics will be shown
+        tag: 'docker'
+        keywords: 'docker container'
+        url: 'https://portainer.triclick.lan:9443/'
 
-      - name: "Cockpit"
-        logo: "assets/images/cockpit.svg"
+      - name: 'Cockpit'
+        logo: 'assets/images/cockpit.svg'
         # icon: "fab fa-linux"
-        subtitle: "Gestión del servidor" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "admin"
-        keywords: "sysadmin"
-        url: "https://cockpit.triclick.lan:9090/"
+        subtitle: 'Gestión del servidor' # optional, if no subtitle is defined, PiHole statistics will be shown
+        tag: 'admin'
+        keywords: 'sysadmin'
+        url: 'https://cockpit.triclick.lan:9090/'
 
-      - name: "Nginx Proxy Manager"
-        logo: "assets/images/nginx-proxy-manager.svg"
-        subtitle: "Gestión de Proxy Inverso" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "proxy"
-        keywords: "nginx proxy manager"
-        url: "http://triclick.lan:81/"
+      - name: 'Nginx Proxy Manager'
+        logo: 'assets/images/nginx-proxy-manager.svg'
+        subtitle: 'Gestión de Proxy Inverso' # optional, if no subtitle is defined, PiHole statistics will be shown
+        tag: 'proxy'
+        keywords: 'nginx proxy manager'
+        url: 'http://triclick.lan:81/'
 
-      - name: "phpMyAdmin"
-        logo: "assets/images/php-myadmin.svg"
-        subtitle: "Administrador de Base de datos" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "database"
-        keywords: "mariadb"
-        url: "https://phpmyadmin.triclick.lan"
+      - name: 'phpMyAdmin'
+        logo: 'assets/images/php-myadmin.svg'
+        subtitle: 'Administrador de Base de datos' # optional, if no subtitle is defined, PiHole statistics will be shown
+        tag: 'database'
+        keywords: 'mariadb'
+        url: 'https://phpmyadmin.triclick.lan'
 
-  - name: "Multimedia"
-    icon: "fa-solid fa-photo-film"
+  - name: 'Multimedia'
+    icon: 'fa-solid fa-photo-film'
     items:
-      - name: "Calibre-Web"
-        logo: "assets/images/calibre-web.svg"
-        subtitle: "Catálogo de libros digitales"
-        tag: "ebooks"
-        url: "http://192.168.1.101:8083/"
+      - name: 'Calibre-Web'
+        logo: 'assets/images/calibre-web.svg'
+        subtitle: 'Catálogo de libros digitales'
+        tag: 'ebooks'
+        url: 'http://192.168.1.101:8083/'
 
-      - name: "Jellyfin"
-        logo: "assets/images/jellyfin.svg"
-        subtitle: "Catálogo de películas y series"
-        tag: "media"
-        url: "http://192.168.1.101:8096/"
+      - name: 'Jellyfin'
+        logo: 'assets/images/jellyfin.svg'
+        subtitle: 'Catálogo de películas y series'
+        tag: 'media'
+        url: 'http://192.168.1.101:8096/'
 
-      - name: "Radarr"
-        logo: "assets/images/radarr.svg"
-        subtitle: "Descarga de películas"
-        tag: "media"
-        url: "http://192.168.1.101:7878/"
+      - name: 'Radarr'
+        logo: 'assets/images/radarr.svg'
+        subtitle: 'Descarga de películas'
+        tag: 'media'
+        url: 'http://192.168.1.101:7878/'
 
-      - name: "Sonarr"
-        logo: "assets/images/sonarr.svg"
-        subtitle: "Descarga de series"
-        tag: "media"
-        url: "http://192.168.1.101:8989/"
+      - name: 'Sonarr'
+        logo: 'assets/images/sonarr.svg'
+        subtitle: 'Descarga de series'
+        tag: 'media'
+        url: 'http://192.168.1.101:8989/'
 
       # - name: "Bazarr"
       #   logo: "assets/images/bazarr.svg"
@@ -273,123 +273,134 @@ services:
       #   tag: "media"
       #   url: "http://192.168.1.101:6767/"
 
-      - name: "Prowlarr"
-        logo: "assets/images/prowlarr.svg"
-        subtitle: "Indexer manager"
-        tag: "media"
-        url: "http://192.168.1.101:9696/"
+      - name: 'Prowlarr'
+        logo: 'assets/images/prowlarr.svg'
+        subtitle: 'Indexer manager'
+        tag: 'media'
+        url: 'http://192.168.1.101:9696/'
 
       - name: qBittorrent
         logo: assets/images/qbittorrent.svg
-        subtitle: "Gestor de descargas bittorrent"
-        tag: "downloads"
-        url: "https://qbittorrent.triclick.lan"
+        subtitle: 'Gestor de descargas bittorrent'
+        tag: 'downloads'
+        url: 'https://qbittorrent.triclick.lan'
 
       - name: PyLoad
         logo: assets/images/pyload.svg
-        subtitle: "Gestor de descargas directas"
-        tag: "downloads"
-        url: "https://pyload.triclick.lan"
+        subtitle: 'Gestor de descargas directas'
+        tag: 'downloads'
+        url: 'https://pyload.triclick.lan'
 
-  - name: "IA"
-    icon: "fas fa-robot"
+  - name: 'IA'
+    icon: 'fas fa-robot'
     items:
-      - name: "Chat GPT"
-        logo: "/assets/images/chatgpt.svg"
-        subtitle: "RoLo's Github Repo"
-        tag: "chat"
-        keywords: "git code"
-        url: "https://chat.openai.com/"
+      - name: 'Open WebUI'
+        logo: '/assets/images/open-webui.svg'
+        subtitle: 'Caht'
+        tag: 'chat'
+        keywords: 'ai chat'
+        url: 'http://192.168.1.101:3000/'
 
-      - name: "Deepseek"
-        logo: "/assets/images/deepseek.svg"
-        subtitle: "RoLo's Github Repo"
-        tag: "chat"
-        url: "https://chat.deepseek.com/"
+      - name: 'Chat GPT'
+        logo: '/assets/images/chatgpt.svg'
+        subtitle: 'AI chatbot dev by OpenAI'
+        tag: 'chat'
+        keywords: 'ai chat'
+        url: 'https://chat.openai.com/'
 
-      - name: "Gemini"
-        logo: "/assets/images/gemini.svg"
-        subtitle: "RoLo's Github Repo"
-        tag: "chat"
-        url: "https://gemini.google.com/"
+      - name: 'Deepseek'
+        logo: '/assets/images/deepseek.svg'
+        subtitle: 'AI China'
+        tag: 'chat'
+        keywords: 'ai chat'
+        url: 'https://chat.deepseek.com/'
 
-      - name: "Copilot"
-        logo: "/assets/images/copilot.svg"
-        subtitle: "RoLo's Github Repo"
-        tag: "chat"
-        url: "https://copilot.microsoft.com/"
+      - name: 'Gemini'
+        logo: '/assets/images/gemini.svg'
+        subtitle: 'AI chatbot dev by Google'
+        tag: 'chat'
+        keywords: 'ai chat'
+        url: 'https://gemini.google.com/'
 
-      - name: "Claude"
-        logo: "/assets/images/claudeai.svg"
-        subtitle: "RoLo's Github Repo"
-        tag: "chat"
-        url: "https://claude.ai/"
+      - name: 'Copilot'
+        logo: '/assets/images/copilot.svg'
+        subtitle: 'AI chatbot dev by Microsoft'
+        tag: 'chat'
+        keywords: 'ai chat'
+        url: 'https://copilot.microsoft.com/'
 
-  - name: "Recursos"
-    icon: "far fa-bookmark"
+      - name: 'Claude'
+        logo: '/assets/images/claudeai.svg'
+        subtitle: 'AI chatbot dev by Anthropic'
+        tag: 'chat'
+        keywords: 'ai chat'
+        url: 'https://claude.ai/'
+
+  - name: 'Recursos'
+    icon: 'far fa-bookmark'
     items:
-      - name: "What Font is"
-        logo: "/assets/images/whatfontis.svg"
-        subtitle: "Buscador de Fuentes"
-        tag: "fonts"
-        keywords: "font finder"
-        url: "https://www.whatfontis.com/"
+      - name: 'What Font is'
+        logo: '/assets/images/whatfontis.svg'
+        subtitle: 'Buscador de Fuentes'
+        tag: 'fonts'
+        keywords: 'font finder'
+        url: 'https://www.whatfontis.com/'
 
-      - name: "Squoosh"
-        logo: "/assets/images/squoosh.svg"
-        subtitle: "Optimizador de imágenes"
-        tag: "images"
-        keywords: "font finder"
-        url: "https://squoosh.app/"
+      - name: 'Squoosh'
+        logo: '/assets/images/squoosh.svg'
+        subtitle: 'Optimizador de imágenes'
+        tag: 'images'
+        keywords: 'font finder'
+        url: 'https://squoosh.app/'
 
-      - name: "Photopea"
-        logo: "/assets/images/photopea.svg"
-        subtitle: "Editor de Fotos online"
-        tag: "design"
-        keywords: "online photo editor"
-        url: "https://www.photopea.com/"
+      - name: 'Photopea'
+        logo: '/assets/images/photopea.svg'
+        subtitle: 'Editor de Fotos online'
+        tag: 'design'
+        keywords: 'online photo editor'
+        url: 'https://www.photopea.com/'
 
-      - name: "FontAwesome v7 Free"
-        icon: "fa-solid fa-font-awesome"
-        subtitle: "Librería de íconos"
-        tag: "icons"
-        keywords: "font icon library"
-        url: "https://fontawesome.com/search?ic=free-collection"
+      - name: 'FontAwesome v7 Free'
+        icon: 'fa-solid fa-font-awesome'
+        subtitle: 'Librería de íconos'
+        tag: 'icons'
+        keywords: 'font icon library'
+        url: 'https://fontawesome.com/search?ic=free-collection'
 
-      - name: "Dashboard icons"
-        logo: "/assets/images/dashboard-icons.svg"
-        subtitle: "Íconos y logos para servicios"
-        tag: "icons"
-        keywords: "icons for dashboard"
-        url: "https://dashboardicons.com/"
+      - name: 'Dashboard icons'
+        logo: '/assets/images/dashboard-icons.svg'
+        subtitle: 'Íconos y logos para servicios'
+        tag: 'icons'
+        keywords: 'icons for dashboard'
+        url: 'https://dashboardicons.com/'
 
-      - name: "Udemy"
-        logo: "/assets/images/udemy.svg"
-        subtitle: "Cursos en línea"
-        tag: "skills"
-        keywords: "icons for dashboard"
-        url: "https://www.udemy.com/"
+      - name: 'Udemy'
+        logo: '/assets/images/udemy.svg'
+        subtitle: 'Cursos en línea'
+        tag: 'skills'
+        keywords: 'icons for dashboard'
+        url: 'https://www.udemy.com/'
 
-      - name: "Deepl"
-        logo: "assets/images/deepl.svg"
-        subtitle: "Traducción integral basada en IA"
-        tag: "translate"
-        keywords: "translate"
-        url: "https://www.deepl.com/es"
+      - name: 'Deepl'
+        logo: 'assets/images/deepl.svg'
+        subtitle: 'Traducción integral basada en IA'
+        tag: 'translate'
+        keywords: 'translate'
+        url: 'https://www.deepl.com/es'
 
-      - name: "SubtitleBridge"
-        logo: "assets/images/subtitlebridge.svg"
-        subtitle: "Traducción *.srt en Línea"
-        tag: "translate"
-        keywords: "translate"
-        url: "https://subtitlebridge.com/translate-srt-to-spanish"
+      - name: 'SubtitleBridge'
+        logo: 'assets/images/subtitlebridge.svg'
+        subtitle: 'Traducción *.srt en Línea'
+        tag: 'translate'
+        keywords: 'translate'
+        url: 'https://subtitlebridge.com/translate-srt-to-spanish'
 
-  - name: "Salud"
-    icon: "far fa-bookmark"
+  - name: 'Salud'
+    icon: 'far fa-bookmark'
     items:
-      - name: "CEMDE"
-        logo: "assets/images/cemde.png"
-        subtitle: "Portal de Pacientes"
-        tag: "salud"
-        keywords: "citas"
-        url: "https://cemde.com/portal-de-pacientes-cemde/"
+      - name: 'CEMDE'
+        logo: 'assets/images/cemde.png'
+        subtitle: 'Portal de Pacientes'
+        tag: 'salud'
+        keywords: 'citas'
+        url: 'https://cemde.com/portal-de-pacientes-cemde/'

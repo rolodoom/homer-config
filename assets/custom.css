@@ -22,39 +22,42 @@
 }
 
 /* Icons */
-.dark img[src*="flathub.svg"] {
-  content: url("images/flathub-dark.svg");
+.dark img[src*='flathub.svg'] {
+  content: url('images/flathub-dark.svg');
 }
-.dark img[src*="snapcraft.svg"] {
-  content: url("images/snapcraft-dark.svg");
+.dark img[src*='snapcraft.svg'] {
+  content: url('images/snapcraft-dark.svg');
 }
-.dark img[src*="portainer.svg"] {
-  content: url("images/portainer-dark.svg");
+.dark img[src*='portainer.svg'] {
+  content: url('images/portainer-dark.svg');
 }
-.dark img[src*="cockpit.svg"] {
-  content: url("images/cockpit-dark.svg");
+.dark img[src*='cockpit.svg'] {
+  content: url('images/cockpit-dark.svg');
 }
-.dark img[src*="radarr.svg"] {
-  content: url("images/radarr-dark.svg");
+.dark img[src*='radarr.svg'] {
+  content: url('images/radarr-dark.svg');
 }
-.dark img[src*="deepl.svg"] {
-  content: url("images/deepl-dark.svg");
+.dark img[src*='deepl.svg'] {
+  content: url('images/deepl-dark.svg');
 }
-.dark img[src*="udemy.svg"] {
-  content: url("images/udemy-dark.svg");
+.dark img[src*='udemy.svg'] {
+  content: url('images/udemy-dark.svg');
 }
-.dark img[src*="deepseek.svg"] {
-  content: url("images/deepseek-dark.svg");
+.dark img[src*='deepseek.svg'] {
+  content: url('images/deepseek-dark.svg');
 }
-.dark img[src*="chatgpt.svg"] {
-  content: url("images/chatgpt-dark.svg");
+.dark img[src*='chatgpt.svg'] {
+  content: url('images/chatgpt-dark.svg');
 }
-.dark img[src*="claudeai.svg"] {
-  content: url("images/claudeai-dark.svg");
+.dark img[src*='claudeai.svg'] {
+  content: url('images/claudeai-dark.svg');
 }
-.dark img[src*="dashboard-icons.svg"] {
-  content: url("images/dashboard-icons-dark.svg");
+.dark img[src*='dashboard-icons.svg'] {
+  content: url('images/dashboard-icons-dark.svg');
 }
-.dark img[src*="bazarr.svg"] {
-  content: url("images/bazarr-dark.svg");
+.dark img[src*='bazarr.svg'] {
+  content: url('images/bazarr-dark.svg');
+}
+.dark img[src*='open-webui.svg'] {
+  content: url('images/open-webui-dark.svg');
 }
